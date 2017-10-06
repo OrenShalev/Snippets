@@ -53,3 +53,4 @@ a[data-title]:hover:after {
   border-radius: 5px; 
   ...
 ```
+More stuff with [pseudo elements](https://css-tricks.com/pseudo-element-roundup/) such as delimiters in lists, ribbons, header flourishes.
