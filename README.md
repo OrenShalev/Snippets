@@ -38,7 +38,7 @@ a[href^="http://css-tricks.com"]:before {
 ### Add big tooltips using text on an element's data-title attribute
 But must consider the browser's native tooltips.
 
-Source: [CSS Tricks](https://css-tricks.com/css-content/#article-header-id-4)
+Source: [CSS Tricks](https://css-tricks.com/css-content/#article-header-id-4). Nicer styline [here](https://codepen.io/team/css-tricks/pen/RPmpYa?editors=0100#0).
 ```css
 a[data-title]:hover:after {
   content: attr(data-title);
