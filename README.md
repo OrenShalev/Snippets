@@ -34,3 +34,22 @@ a[href^="http://css-tricks.com"]:before {
 }
 
 ```
+
+### Add big tooltips using text on an element's data-title attribute
+But must consider the browser's native tooltips.
+
+Source: [CSS Tricks](https://css-tricks.com/css-content/#article-header-id-4)
+```css
+a[data-title]:hover:after {
+  content: attr(data-title);
+  position: absolute;
+  left: 0; 
+  top: 100%;
+  // Below are just styling details:
+  white-space: nowrap; 
+  z-index: 20px;
+  padding: 4px 8px;
+  color: #333;
+  border-radius: 5px; 
+  ...
+```
