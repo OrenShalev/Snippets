@@ -54,3 +54,6 @@ a[data-title]:hover:after {
   ...
 ```
 More stuff with [pseudo elements](https://css-tricks.com/pseudo-element-roundup/) such as delimiters in lists, ribbons, header flourishes.
+
+### Quick start with CircleCI, GitHub pages, building from an npm script
+https://gist.github.com/jcouyang/81ae59d10c15572c79d8
